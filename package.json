@@ -1,0 +1,26 @@
+{
+  "name": "recompile-node-modules",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "meteor-node-stubs": "^1.0.1",
+    "react-draggable": "^4.4.3"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "./client/main.js",
+      "server": "./server/main.js"
+    },
+    "nodeModules": {
+      "recompile": {
+        "react-draggable": true
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-plugin-transform-imports": "file:babel-transform-imports"
+  }
+}

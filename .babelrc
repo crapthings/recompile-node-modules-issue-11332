@@ -1,0 +1,6 @@
+{
+  "presets": ["meteor"],
+  "plugins": [
+    ["transform-imports", { "test": true }]
+  ],
+}

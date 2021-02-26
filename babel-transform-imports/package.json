@@ -1,0 +1,40 @@
+{
+  "name": "babel-plugin-transform-imports",
+  "version": "2.0.0",
+  "description": "Transforms member style imports (import {x} from 'y') into default style imports (import x from 'y/lib/x')",
+  "keywords": [
+    "babel",
+    "transform",
+    "import",
+    "react-bootstrap",
+    "lodash"
+  ],
+  "main": "index.js",
+  "homepage": "https://bitbucket.org/amctheatres/babel-transform-imports",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "author": "AMC Theatres",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4",
+    "@babel/preset-env": "^7.4",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.17",
+    "@babel/register": "^7.4.4",
+    "@babel/template": "^7.12.13",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "babel-preset-meteor": "^7.9.0",
+    "material-ui": "^0.20.2",
+    "mocha": "^6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.3",
+    "react-virtualized": "^9.22.3"
+  },
+  "dependencies": {
+    "@lvfang/mantra-core": "^2.0.1",
+    "lodash": "^4.17.21"
+  }
+}
